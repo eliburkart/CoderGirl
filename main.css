@@ -1,4 +1,10 @@
-/*  create ToC, create comment before each style*/
+/*  Eli's portfolio contains:
+header
+   - about box
+   - expercience box
+   - skills bio_text
+   - projects box
+footer*/
 
 body {
   background: #d1dbbd ;
@@ -12,7 +18,7 @@ h1 {
   text-shadow: .5px .5px #88F9D4;
 
   }
-
+/* Link styling */
 a:link {
     text-decoration: none;
     color: #90a7ad;
@@ -31,23 +37,6 @@ header {
   font-family: "Proza Libre";
 
 }
-/* Footer */
-footer {
-  vertical-align: center;
-  background-color:  #3e606f;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  color: white;
-  font-family: "Proza Libre";
-  text-align: center;
-}
-
-.vl {
-    border-left: 2px solid;
-    border-color:  #90a7ad;
-    color: black;
-    height: 10%;
-}
 /* special styling for eli burkart in menu */
 #padname {
   padding-right: 1%;
@@ -56,12 +45,16 @@ footer {
   text-transform: lowercase;
   text-shadow: .5px .5px #88F9D4;
 }
-
 ul#menu li {
   display: inline;
   padding-right: 1.25%;
   padding-left: .75%;
-
+}
+.vl {
+    border-left: 2px solid;
+    border-color:  #90a7ad;
+    color: black;
+    height: 10%;
 }
 
   /* container for bio image and text */
@@ -71,8 +64,6 @@ ul#menu li {
   padding-left: 15%;
   padding-right: 15%;
 }
-
-
 .bio_img-circle {
   flex: 1;
   border-radius: 75%;
@@ -99,7 +90,6 @@ ul#menu li {
   text-align: justify;
   margin-left: 15%;
   margin-right: 15%;
-
 }
 .Exp1 {
   flex:1;
@@ -113,19 +103,17 @@ ul#menu li {
   flex:3;
   margin-bottom: 3%;
 }
-/* flex box contains skill buttons */
+/* flex box containing skill buttons */
 .Skills {
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 5%;
   padding-top: 3%;
 }
-
 .buttons {
   display: flex;
   justify-content: center;
   padding-right: 2em;
-
 }
 #TSQL {
   padding-right: .75em;
@@ -138,9 +126,7 @@ ul#menu li {
   background-color:#91aa9d;
   border-radius: 12px;
   color: white;
-
 }
-
 #HTML {
   padding-right: .75em;
   background-color:#91aa9d;
@@ -164,8 +150,7 @@ ul#menu li {
   background-color: #91aa9d;
   border-radius: 12px;
   color: white;
-    text-align: center;
-
+  text-align: center;
 }
 #WP {
   padding-right: 1.5%;
@@ -181,21 +166,16 @@ ul#menu li {
   padding-bottom: 5%;
   padding-top: 3%;
 }
-
-
 .Projects {
   display: flex;
   margin-bottom: 3%;
   width: 90%;
-
 }
-
 .Projects_img
 {
   order: 2;
   flex:5;
   text-align: right;
-
 }
 .Projects_text {
   flex:2;
@@ -203,7 +183,6 @@ ul#menu li {
   padding-left: 10%;
   text-align: justify;
 }
-
 .Projects2{
   display: flex;
   margin-bottom: 3%;
@@ -218,7 +197,6 @@ ul#menu li {
   order:1;
   flex: 2;
   padding-left: 10%;
-
 }
 /* Returns to header */
 .top_of {
@@ -228,4 +206,14 @@ ul#menu li {
   color:  #2C5B61;
   font-family: "Proza Libre";
   margin-bottom: 1%;
+}
+/* Footer */
+footer {
+  vertical-align: center;
+  background-color:  #3e606f;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  font-family: "Proza Libre";
+  text-align: center;
 }
