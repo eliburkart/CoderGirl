@@ -1,3 +1,5 @@
+/*  create ToC, create comment before each style*/
+
 body {
   background: transparent;
   margin: 0;
@@ -13,13 +15,13 @@ h1 {
 
 a:link {
     text-decoration: none;
-    color: #90a7ad;  
+    color: #90a7ad;
 }
 a:visited {
   color:  #90a7ad;
 }
-
-.main_menu {
+/* Primary Menu */
+header {
   vertical-align: center;
   background-color: #2C5B61;
   padding-top: 1%;
@@ -29,7 +31,8 @@ a:visited {
   font-family: "Proza Libre";
 
 }
-.footer_menu {
+/* Footer */
+footer {
   vertical-align: center;
   background-color: #2C5B61;
   padding-top: 1%;
