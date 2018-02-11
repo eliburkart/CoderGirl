@@ -1,13 +1,13 @@
 /*  create ToC, create comment before each style*/
 
 body {
-  background: #dceff5;
+  background: #d1dbbd ;
   margin: 0;
   font-family: Lato;
 }
 h1 {
   text-align: center;
-  color:  #236475;
+  color:  #3e606f;
   font-family: "Proza Libre";
   text-shadow: .5px .5px #88F9D4;
 
@@ -23,7 +23,7 @@ a:visited {
 /* Primary Menu */
 header {
   vertical-align: center;
-  background-color: #013340;
+  background-color: #3e606f;
   padding-top: 1%;
   padding-bottom: 1%;
   text-transform: uppercase;
@@ -34,7 +34,7 @@ header {
 /* Footer */
 footer {
   vertical-align: center;
-  background-color: #013340;
+  background-color:  #3e606f;
   padding-top: 1%;
   padding-bottom: 1%;
   color: white;
@@ -50,7 +50,7 @@ footer {
 }
 #padname {
   padding-right: 1%;
-  background-color: #013340;
+  background-color: transparent;
   color: white;
   text-transform: lowercase;
   text-shadow: .5px .5px #88F9D4;
@@ -88,7 +88,7 @@ ul#menu li {
 .title{
   font-family: "Proza Libre";
   font-weight: bold;
-  color:  #93b8c2;
+  color:  #3e606f;
   text-transform: uppercase;
 }
 .title2 {
@@ -130,13 +130,13 @@ ul#menu li {
 }
 #TSQL {
   padding-right: .75em;
-  background-color: #001d29;
+  background-color: #91aa9d;
   border-radius: 12px;
   color: white;
 }
 #SSRS {
   padding-right: .75em;
-  background-color: #001d29;
+  background-color:#91aa9d;
   border-radius: 12px;
   color: white;
 
@@ -144,25 +144,25 @@ ul#menu li {
 
 #HTML {
   padding-right: .75em;
-  background-color: #001d29;
+  background-color:#91aa9d;
   border-radius: 12px;
   color: white;
 }
 #CSS {
   padding-right: .75em;
-  background-color: #001d29;
+  background-color:#91aa9d;
   border-radius: 12px;
   color: white;
 }
 #Bootstrap {
   padding-right: .75em;
-  background-color: #001d29;
+  background-color:#91aa9d;
   border-radius: 12px;
   color: white;
 }
 #VS {
   padding-right: 1.5em;
-  background-color: #001d29;
+  background-color: #91aa9d;
   border-radius: 12px;
   color: white;
     text-align: center;
@@ -170,7 +170,7 @@ ul#menu li {
 }
 #WP {
   padding-right: 1.5%;
-  background-color: #001d29;
+  background-color: #91aa9d;
   border-radius: 12px;
   color: white;
   text-align: center;
