@@ -48,6 +48,7 @@ footer {
     color: black;
     height: 10%;
 }
+/* special styling for eli burkart in menu */
 #padname {
   padding-right: 1%;
   background-color: transparent;
@@ -63,17 +64,15 @@ ul#menu li {
 
 }
 
-
+  /* container for bio image and text */
 .About {
   display: flex;
   text-align: left;
   padding-left: 15%;
   padding-right: 15%;
-
-  /* background: #252525 */
 }
 
-  /* background-color: rgba(47,47,47,0.98); */
+
 .bio_img-circle {
   flex: 1;
   border-radius: 75%;
@@ -114,7 +113,7 @@ ul#menu li {
   flex:3;
   margin-bottom: 3%;
 }
-
+/* flex box contains skill buttons */
 .Skills {
   padding-left: 15%;
   padding-right: 15%;
@@ -175,7 +174,7 @@ ul#menu li {
   color: white;
   text-align: center;
 }
-
+/* flex box contains project text and images */
 .All_projects {
   padding-left: 10%;
   padding-right: 10%;
@@ -221,6 +220,7 @@ ul#menu li {
   padding-left: 10%;
 
 }
+/* Returns to header */
 .top_of {
   text-align: center;
   vertical-align: top;
